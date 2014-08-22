@@ -88,7 +88,12 @@ ifeq ($(NFC_D), true)
         nfc_nci.msm8916 \
         QNfc \
         Tag \
+        GsmaNfcService \
+        com.gsma.services.nfc \
+        com.gsma.services.nfc.xml \
         com.android.nfc_extras \
+        com.android.qcom.nfc_extras \
+        com.android.qcom.nfc_extras.xml \
         com.android.nfc.helper \
         SmartcardService \
         org.simalliance.openmobileapi \
