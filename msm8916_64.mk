@@ -119,3 +119,12 @@ PRODUCT_COPY_FILES += \
         frameworks/native/data/etc/android.hardware.nfc.xml:system/etc/permissions/android.hardware.nfc.xml \
         frameworks/native/data/etc/android.hardware.nfc.hce.xml:system/etc/permissions/android.hardware.nfc.hce.xml
 endif # TARGET_USES_QCA_NFC
+
+#HBTP
+PRODUCT_PACKAGES += hbtp_daemon
+PRODUCT_PACKAGES += libhbtpclient.so
+PRODUCT_PACKAGES += libhbtpfrmwk.so
+PRODUCT_PACKAGES += libhbtparm.so
+PRODUCT_PACKAGES += libafehal.so
+PRODUCT_PACKAGES += hbtp.cfg
+PRODUCT_PACKAGES += hbtpcfg.dat
