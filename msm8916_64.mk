@@ -134,3 +134,6 @@ PRODUCT_PACKAGES += libhbtparm.so
 PRODUCT_PACKAGES += libafehal.so
 PRODUCT_PACKAGES += hbtp.cfg
 PRODUCT_PACKAGES += hbtpcfg.dat
+
+PRODUCT_SUPPORTS_VERITY := true
+PRODUCT_SYSTEM_VERITY_PARTITION := /dev/block/bootdevice/by-name/system
