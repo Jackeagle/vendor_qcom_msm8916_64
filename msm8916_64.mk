@@ -140,12 +140,14 @@ endif
 
 #HBTP
 PRODUCT_PACKAGES += hbtp_daemon
-PRODUCT_PACKAGES += libhbtpclient.so
-PRODUCT_PACKAGES += libhbtpfrmwk.so
-PRODUCT_PACKAGES += libhbtparm.so
-PRODUCT_PACKAGES += libafehal.so
-PRODUCT_PACKAGES += hbtp.cfg
-PRODUCT_PACKAGES += hbtpcfg.dat
+PRODUCT_PACKAGES += hbtp_tool
+PRODUCT_PACKAGES += libhbtpclient
+PRODUCT_PACKAGES += libhbtpfrmwk
+PRODUCT_PACKAGES += libhbtparm
+PRODUCT_PACKAGES += hbtp_rohm_fhd_5_a230adev_np.cfg
+PRODUCT_PACKAGES += hbtp_rohm_fhd_5_a230adev_np.dat
+PRODUCT_PACKAGES += hbtp_rohm_fhd_6_a155adev_np.cfg
+PRODUCT_PACKAGES += hbtp_rohm_fhd_6_a155adev_np.dat
 
 PRODUCT_SUPPORTS_VERITY := true
 PRODUCT_SYSTEM_VERITY_PARTITION := /dev/block/bootdevice/by-name/system
