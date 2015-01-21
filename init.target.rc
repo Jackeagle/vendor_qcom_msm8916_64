@@ -69,6 +69,7 @@ service qcamerasvr /system/bin/mm-qcamera-daemon
 #enable zram
 on property:ro.config.zram=true
     swapon_all fstab.qcom
+    write /proc/sys/vm/swappiness 100
 
 # Allow usb charging to be disabled peristently
 on property:persist.usb.chgdisabled=1
