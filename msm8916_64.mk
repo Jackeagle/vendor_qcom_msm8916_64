@@ -167,3 +167,7 @@ PRODUCT_PACKAGES += hbtpcfg_8939_5p5_rohm_v4.dat
 PRODUCT_PACKAGES += libafehal_6_rohm_v3.so
 PRODUCT_PACKAGES += hbtp_8939_6_rohm_v3.cfg
 PRODUCT_PACKAGES += hbtpcfg_8939_6_rohm_v3.dat
+
+# Sensor HAL conf file
+PRODUCT_COPY_FILES += \
+    device/qcom/msm8916_64/sensors/hals.conf:system/etc/sensors/hals.conf
