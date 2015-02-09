@@ -59,6 +59,7 @@ on post-fs-data
     mkdir /tombstones/dsps 0771 system system
     mkdir /persist/data/sfs 0700 system system
     mkdir /persist/data/tz 0700 system system
+    mkdir /data/misc/dts 0770 media audio
 
 #start camera server as daemon
 service qcamerasvr /system/bin/mm-qcamera-daemon
@@ -214,3 +215,9 @@ on charger
     start vm_bms
     load_all_props
     start qcom-post-boot
+
+service dts_configurator /system/bin/dts_configurator
+    class main
+    user system
+    group system
+    oneshot
