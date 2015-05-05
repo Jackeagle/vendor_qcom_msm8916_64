@@ -46,6 +46,7 @@
    <integer name="launchboost_cpuboost_param">0x20F</integer>
    <integer name="launchboost_pcdisbl_param">0x101</integer>
    <integer name="launchboost_ksmboost_param">0x1C00</integer>
+   <integer name="launchboost_preferidle_param">0x3E01</integer>
    <integer name="launchboost_smtaskboost_param">0x400A</integer>
    <integer name="launchboost_idleloadboost_param">0x410A</integer>
    <integer name="launchboost_idlenrrunboost_param">0x4201</integer>
