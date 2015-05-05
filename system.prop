@@ -28,6 +28,8 @@ dev.pm.dyn_samplingrate=1
 persist.demo.hdmirotationlock=false
 debug.mdpcomp.idletime=600
 debug.enable.sglscale=1
+# disable vsync for cpu render apps
+debug.cpurend.vsync=false
 
 #ro.hdmi.enable=true
 #tunnel.decode=true
@@ -156,3 +158,6 @@ ro.core_ctl_max_cpu=4
 ro.sys.fw.bservice_enable=true
 ro.sys.fw.bservice_limit=5
 ro.sys.fw.bservice_age=5000
+
+#Optimal dex2oat threads for faster app installation
+ro.sys.fw.dex2oat_thread_count=4
