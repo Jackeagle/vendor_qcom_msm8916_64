@@ -30,6 +30,7 @@ debug.mdpcomp.idletime=600
 debug.enable.sglscale=1
 # disable vsync for cpu render apps
 debug.cpurend.vsync=false
+persist.hwc.downscale_threshold=1.25
 
 #ro.hdmi.enable=true
 #tunnel.decode=true
