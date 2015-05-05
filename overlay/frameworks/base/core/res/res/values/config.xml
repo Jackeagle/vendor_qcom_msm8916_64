@@ -36,6 +36,7 @@
    <integer name="flingboost_preferidle_param">0x3E01</integer>
    <!-- Whether cpu boost is enabled for horizontal scroll. -->
    <bool name="config_enableCpuBoostForScroller">true</bool>
+   <integer name="disablepacking_timeout_param">5000</integer>
    <integer name="scrollboost_schedboost_param">0x1E01</integer>
    <integer name="scrollboost_cpuboost_param">0x20D</integer>
    <integer name="scrollboost_preferidle_param">0x3E01</integer>
@@ -47,8 +48,8 @@
    <integer name="launchboost_pcdisbl_param">0x101</integer>
    <integer name="launchboost_ksmboost_param">0x1C00</integer>
    <integer name="launchboost_preferidle_param">0x3E01</integer>
-   <integer name="launchboost_smtaskboost_param">0x400A</integer>
-   <integer name="launchboost_idleloadboost_param">0x410A</integer>
+   <integer name="launchboost_smtaskboost_param">0x4001</integer>
+   <integer name="launchboost_idleloadboost_param">0x4101</integer>
    <integer name="launchboost_idlenrrunboost_param">0x4201</integer>
    <!-- Whether cpu boost is enabled for animation during exit and entry -->
    <bool name="config_enablePerfBoostForAnimation">true</bool>
