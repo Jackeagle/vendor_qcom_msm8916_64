@@ -173,3 +173,5 @@ PRODUCT_PACKAGES += hbtpcfg_8939_6_rohm_v3.dat
 # Sensor HAL conf file
 PRODUCT_COPY_FILES += \
     device/qcom/msm8916_64/sensors/hals.conf:system/etc/sensors/hals.conf
+
+GMS_ENABLE_OPTIONAL_MODULES := false
