@@ -44,9 +44,6 @@ PRODUCT_BOOT_JARS += qcmediaplayer \
 PRODUCT_BOOT_JARS += vcard
 PRODUCT_BOOT_JARS += tcmiface
 
-# default is nosdcard, S/W button enabled in resource
-PRODUCT_CHARACTERISTICS := nosdcard
-
 #Android EGL implementation
 PRODUCT_PACKAGES += libGLES_android
 
