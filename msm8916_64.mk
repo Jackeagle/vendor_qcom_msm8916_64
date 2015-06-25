@@ -34,6 +34,7 @@ ifeq ($(strip $(TARGET_USES_QTIC)),true)
 -include $(QCPATH)/common/config/rendering-engine.mk
 ifneq (,$(strip $(wildcard $(PRODUCT_RENDERING_ENGINE_REVLIB))))
     MULTI_LANG_ENGINE := REVERIE
+#    MULTI_LANG_ZAWGYI := REVERIE
 endif
 endif
 
@@ -43,9 +44,6 @@ PRODUCT_BOOT_JARS += qcmediaplayer \
                      oem-services
 PRODUCT_BOOT_JARS += vcard
 PRODUCT_BOOT_JARS += tcmiface
-
-# default is nosdcard, S/W button enabled in resource
-PRODUCT_CHARACTERISTICS := nosdcard
 
 #Android EGL implementation
 PRODUCT_PACKAGES += libGLES_android
