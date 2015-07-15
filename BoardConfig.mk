@@ -44,6 +44,9 @@ BOARD_PERSISTIMAGE_PARTITION_SIZE := 33554432
 BOARD_PERSISTIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
 
+# Enable suspend during charger mode
+BOARD_CHARGER_ENABLE_SUSPEND := true
+
 # Added to indicate that protobuf-c is supported in this build
 PROTOBUF_SUPPORTED := true
 
