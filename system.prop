@@ -24,12 +24,12 @@ debug.egl.hw=0
 persist.hwc.mdpcomp.enable=true
 debug.mdpcomp.logs=0
 dalvik.vm.heapsize=36m
+dalvik.vm.zygotemaxfailedboots=5
 dev.pm.dyn_samplingrate=1
 persist.demo.hdmirotationlock=false
 debug.mdpcomp.idletime=600
 debug.enable.sglscale=1
-# disable vsync for cpu render apps
-debug.cpurend.vsync=false
+persist.hwc.downscale_threshold=1.25
 
 #ro.hdmi.enable=true
 #tunnel.decode=true
